@@ -2,8 +2,9 @@
 
 # Title : Osteo-Synergy
 ## An Automated Osteo Fracture Detection System Supported by LinuxOne
-
 <br></br>
+
+Link to presentation : [AzureInnovationChallenge2024.pdf](https://github.com/naveenkumar12624/AzureInnovationChallenge2024/blob/main/AzureInnovationChallenge2024.pdf)
 ## Problem:
 The current process of diagnosing bone fractures from X-ray images in the medical domain often encounters challenges due to the reliance on manual interpretation by radiologists. This manual approach may lead to delays in diagnosis, potential misinterpretations, and variations in expertise, affecting patient care and treatment timelines. Moreover, the increasing demand for swift and accurate fracture detection necessitates a more efficient and automated system.
 <br></br>
