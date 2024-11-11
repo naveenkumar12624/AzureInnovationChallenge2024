@@ -1,7 +1,7 @@
 # AzureInnovationChallenge2024
 
 # Title : Osteo-Synergy
-## An Automated Osteo Fracture Detection System Supported by LinuxOne
+## An Automated Osteo Fracture Detection System Supported by AzureML Studio
 <br></br>
 
 Link to presentation : [AzureInnovationChallenge2024.pdf](https://github.com/naveenkumar12624/AzureInnovationChallenge2024/blob/main/AzureInnovationChallenge2024.pdf)
@@ -10,13 +10,13 @@ The current process of diagnosing bone fractures from X-ray images in the medica
 <br></br>
 
 ## Solution:
-By leveraging the advanced ResNet152V2 architecture combined with custom residual blocks, a novel deep learning-based solution for bone fracture detection can be established. This amalgamation harnesses the power of transfer learning from the pre-trained ResNet152V2 model.The primary objective of this mini-project is to develop an innovative deep learning model capable of accurately detecting bone fractures from medical imaging data, specifically X-ray images.
+By leveraging the advanced ResNet18 architecture combined with custom residual blocks, a novel deep learning-based solution for bone fracture detection can be established. This amalgamation harnesses the power of transfer learning from the pre-trained ResNet18 model.The primary objective of this mini-project is to develop an innovative deep learning model capable of accurately detecting bone fractures from medical imaging data, specifically X-ray images.
 <br></br>
 ### The proposed methodology involves:
 
-**Transfer Learning with ResNet152V2:** Utilize the pre-trained ResNet152V2, a state-of-the-art convolutional neural network, as a foundational base model for feature extraction from bone X-ray images. This pre-trained network possesses learned features from a large dataset (ImageNet) and thus exhibits a deep understanding of general image patterns.
+**Transfer Learning with ResNet18:** Utilize the pre-trained ResNet18, a state-of-the-art convolutional neural network, as a foundational base model for feature extraction from bone X-ray images. This pre-trained network possesses learned features from a large dataset (ImageNet) and thus exhibits a deep understanding of general image patterns.
 
-**Custom Residual Blocks:** Augment the ResNet152V2 base model with custom residual blocks tailored to emphasize finer details and localized features specific to bone fractures. These blocks employ convolutional layers, batch normalization, and residual connections to enhance the network's ability to capture intricate fracture patterns.
+**Custom Residual Blocks:** Augment the ResNet18 base model with custom residual blocks tailored to emphasize finer details and localized features specific to bone fractures. These blocks employ convolutional layers, batch normalization, and residual connections to enhance the network's ability to capture intricate fracture patterns.
 
 **Hierarchical Feature Representation:** Employ multiple layers of residual blocks and pooling operations to progressively extract hierarchical representations of fractures at varying scales. The model gradually learns to discern features at different levels of abstraction, aiding in accurate fracture localization and identification.
 
@@ -44,21 +44,24 @@ The proposed model, 'ResNet_model,' amalgamates the strengths of transfer learni
 
 ## Output:
 
-## ResNet Model Reaches the **Accuracy of 94% and Validation Accuracy of 75%**
+## ResNet18 Model Reaches the **Accuracy of 94% and Validation Accuracy of 90%**
+![image](https://github.com/user-attachments/assets/334f01bf-0dab-4eef-8f68-ccb6dfc4acf6)
 
-![Accuracy](https://github.com/naveenkumar12624/19AI701-MINI_PROJECT_TEAM_ML-20/assets/93427235/b1447558-54c6-42f2-85a6-cf58fb745eff)
+
 
 <br></br>
 ## Also the **Loss has been Reduced** Over some Iterations.
 
-![Screenshot 2023-11-15 001110](https://github.com/naveenkumar12624/19AI701-MINI_PROJECT_TEAM_ML-20/assets/93427235/e1310cb7-4455-46b2-bca4-b432262907c8)
+![image](https://github.com/user-attachments/assets/e8a3dc1a-becc-4515-80c4-f35ec67fbc3c)
+
 
 <br></br>
 ## This ResNet Model can able to Identify the **Bone is whether Fractured or Not**
 
-![Screenshot 2023-11-15 001406](https://github.com/naveenkumar12624/19AI701-MINI_PROJECT_TEAM_ML-20/assets/93427235/7db5055a-a83d-4d00-a5e8-7cef129a7b7b)
+![image](https://github.com/user-attachments/assets/8965f608-e10d-4995-98a6-5084fed3a791)
 
-![Screenshot 2024-10-08 165133](https://github.com/user-attachments/assets/8b2d2738-2a45-4a08-aefc-1a8829b47af6)
+![image](https://github.com/user-attachments/assets/953919e4-ccd4-481a-959c-df42478f5779)
+
 
 <br></br>
 ## Future Implementation of this Project:
